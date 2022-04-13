@@ -1,0 +1,7 @@
+import jugadoresPersonajes.*
+test "mario tiene valor inicial de 1000 y aumenta a 1100" {
+	mario.cambiarValor(1000)
+	mario.aumentarValor()
+	assert.equals(1100, mario.valor())
+}
+

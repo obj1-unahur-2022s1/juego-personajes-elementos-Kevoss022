@@ -4,13 +4,22 @@ object luisa {
 
 
 object floki {
-	var arma
 	
 }
 
-
 object mario {
-	var valorRecolectado = 0
-
+	var valor = 100
+	method valor() {
+		return valor
+	}
+	method cambiarValor(valorNuevo) {
+		valor = valorNuevo
+	}
+	method aumentarValor() {
+		valor = valor + 100
+	} 
+	method disminuirValor() {
+		valor = valor - 100
+	}
 }
 
